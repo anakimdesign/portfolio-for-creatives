@@ -629,10 +629,10 @@ a.nav-link-primary:hover {
   min-height: 6rem; /* Space reserved for logo + nav */
 }
 
-.nav-branding {
+.nav-branding { 
   display: flex;
   flex-direction: row;
-  justify-content: space-;
+  justify-content: left;
   padding: var(--padding-small);
   align-items: center;
 }
@@ -646,6 +646,7 @@ a.nav-link-primary:hover {
 }
 
 .nav-branding-logo {
+  
   width: 3rem;
   /* TODO: Adjust the width of the logo on mobile devices here */
 }
